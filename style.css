@@ -1,0 +1,93 @@
+body {
+	background-image: url("images/bg.jpg");
+}
+
+.bio {
+	color: white;
+	font-family: Century Gothic;
+	font-size: 40px;
+	font-weight: bold;
+	transition: transform .5s;
+}
+
+.big {
+	display: flex;
+	margin-left: 10%;
+}
+
+.name {
+	margin-top: 2%;
+}
+
+.flx {
+	flex: 1;
+}
+
+.ull{
+	color: white;
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align:left;
+}
+
+.desc {
+	width: 50%;
+	color: white;
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: justify;
+	transition: transform .5s;
+}
+
+.desc:hover {
+	transform: scale(1.1);
+	background-color: #1d133541;
+}
+
+.desc3 {
+	width: 50%;
+	color: white;
+	font-family: Century Gothic;
+	font-size: 20px;
+	transition: transform .5s;
+}
+
+.desc3:hover {
+	transform: scale(1.1);
+	background-color: #1d133541;
+}
+
+.desc2 {
+	width: 75%;
+	color: white;
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: justify;
+	transition: transform .5s;
+}
+
+.desc2:hover {
+	transform: scale(1.1);
+	background-color: #1d133541;
+}
+
+.person {
+	color: white;
+	font-family: Century Gothic;
+	font-size: 30px;
+	transition: transform .5s;
+}
+
+.person:hover {
+	transform: scale(1.1);
+}
+
+.pic {
+	width: 200px;
+	border-radius: 50%;
+	transition: transform .5s;
+}
+
+.pic:hover {
+	transform: scale(1.1);
+}
